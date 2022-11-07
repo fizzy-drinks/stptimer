@@ -11,5 +11,8 @@ setup(
     zip_safe=True,
     entry_points={
         'console_scripts': ['stptimer=stptimer.timer:main']
-    }
+    },
+    install_requires=[
+        'termcolor==2.1.0'
+    ]
 )
